@@ -1,0 +1,11 @@
+<ion-view view-title="{{kategori | capitalize}}">
+  <ion-content>
+    <!-- <h1>{{kategori}}</h1> -->
+  <div class="list">
+    <a class="item item-thumbnail-left" href="#/app/kategori/{{kategori}}/{{berita.id}}" ng-repeat="berita in beritas">
+      <img ngsrc="{{berita.imageurl}}">
+      <p class="title">{{berita.title}}</p>
+    </a>
+	</div>
+  </ion-content>
+</ion-view>

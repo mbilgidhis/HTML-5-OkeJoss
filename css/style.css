@@ -1,0 +1,13 @@
+/* Empty. Add your own CSS if you like */
+p.title{
+	overflow: visible !important;
+	white-space: normal !important;
+	font-size: 18px;
+	word-spacing: 2px;
+}
+p.justify{
+	text-align: justify;
+}
+h1:first-letter{
+	text-transform: capitalize;
+}
